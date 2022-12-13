@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ .banner {
+   background-image:url(black-goku.jpg);
+   width: 100%;
+   Height: 100vh;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   transition: 5s;
+
+   animation-name: animate ;
+   animation-direction: alternate-reverse ;
+   animation-duration: 40s ;
+   animation-fill-mode: forwards ;
+   animation-iteration-count: infinite ;
+   animation-play-state: running ;
+   animation-timing-function: ease-in-out ;
+
+  }
+
+@keyframes animate{
+   0%{
+      background-image:url(bakugou.jpg);
+     }
+   20%{
+      background-image:url(kaneki.jpg);
+      }
+   40%{
+      background-image:url(demon.jpg);
+      }
+   60%{
+      background-image:url(weathering.jpg);
+      }
+   80%{
+      background-image:url(another.jpg);
+      }
+   100%{
+      background-image:url(black-goku.jpg);
+      }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+ .navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+
+ .logo {
+    linear-gradient: (rgba(0,0,0,0.85),rgba(0,0,0,0.85));
+    border-radius:50%;
+    width: 170px;
+    cursor: pointer;
+   }
+
+ .navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+   } 
+
+ .navbar ul li a {  
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+   }
+
+
+ .navbar ul li::after {
+    content: '';
+    height: 4px;
+    width: 0;
+    background: #ffc107;
+    position: absolute;
+    left: -20%;
+    bottom: -10px;
+    transition: 0.5s;
+   }
+
+   .navbar ul li:hover::after {
+    width: 140%;
+   }
+
+  .content {
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+   }
+
+   span {
+     color: #ffc107;
+   }
+    
+ 
+
+  .title {
+   font-size: 80px; 
+   line-height: 100px;
+   font-weight: bold;
+  }
+
+  .content p {
+   margin: 20px auto;
+   font-weight:100;
+   line-height: 25px;
+   font-family: sans-serif;
+  }
+
+  
+  button {
+    padding: 15px 25px;
+    margin: 20px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: 2px solid #ffc107;
+    color: #fff;
+    cursor: pointer;
+    background: linear-gradient(to left, transparent 50%, #ffc107 50%);
+    background-size: 200%;
+    background-position: right;
+    transition:background-position 0.5s;
+   }
+
+   button:hover {
+    background-position: left ;
+    color: #000;
+    } 
+
+
+
+
+  .ban {
+   background-image: url(bg.png);
+   width: 100%;
+   Height: 60vh;
+   background-size: cover;
+   background-position: center;
+   background-repeat:no-repeat;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   .middle {
+position: absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+
+}
+
+   .card {
+align-items: flex-end;
+corsor: pointer;
+width: 230px;
+height:340px;
+box-shadow: 40px 30px 10px rgba(0,0,0,0.5);
+border-radius: 30px;
+
+}
+
+
+
+
+
+
+   .front,.back{
+width: 100%;
+height: 100%;
+overflow: hidden;
+backface-visibility: hidden;
+position: absolute;
+transition: transform .6s linear;
+
+}
+
+   .front img {
+height:100%;
+width:100%;
+
+}
+
+  .front{
+transform: prespective(600px) rotateY(0deg);
+border-radius: 30px;
+
+}
+
+   .back{
+position: absolute;
+background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85)), url("logo.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+transform: perspective(600px) rotateY(180deg);
+border-radius: 30px;
+}
+
+
+   .back-content{
+color: orange;
+text-align: center;
+width: 100%;
+
+}
+
+   .sm {
+margin: 20px 0;
+
+}
+
+   .sm a{
+diaplay: inline-flex;
+width: 40px;
+height: 40px;
+justify-content: center;
+align-items: center;
+color: blue;
+font-size: 18px;
+transition: 0.4s;
+border-radius: 50%;
+
+}
+
+   .sm a:hover{
+background: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85)),;
+color: green;
+
+}
+
+   .card:hover > .front{
+transform: perspective(600px) rotateY(-180deg);
+
+} 
+
+   .card:hover > .back{
+transform: perspective(600px) rotateY(0deg);
+
+}
+
+
+
+
+   .posi {
+position: absolute;
+top:125%;
+left:10%;
+transition: transform  0.8s;
+
+}
+
+  .posi:hover{
+transform: translateY(-30px);
+}
+
+
+   .posi1 {
+position: absolute;
+top:125%;
+left:26%; 
+transition: transform  0.8s;
+
+}
+
+  .posi1:hover{
+transform: translateY(-30px);
+}
+
+
+   .posi2 {
+position: absolute;
+top:125%;
+left:42%; 
+transition: transform  0.8s;
+
+}
+
+  .posi2:hover{
+transform: translateY(-30px);
+}
+
+
+   .posi3 {
+position: absolute;
+top:125%;
+left:58%; 
+transition: transform  0.8s;
+
+}
+
+  .posi3:hover{
+transform: translateY(-30px);
+}
+
+
+   .posi4 {
+position: absolute;
+top:125%;
+left:74%;
+transition: transform  0.8s; 
+
+}
+
+  .posi4:hover{
+transform: translateY(-30px);
+}
+
+
+   .posi5 {
+position: absolute;
+top:125%;
+left:90%; 
+transition: transform  0.8s;
+
+}
+
+  .posi5:hover{
+transform: translateY(-30px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .bgg{
+height: 64%;
+width: 100%;
+position: absolute;
+z-index: -2;
+top: 100%;
+left: 0%;
+opacity: 1;
+
+
+   }
+
+
+  .news{
+position: relative;
+top: 51%;
+color: yellow;
+text-shadow: 2px 2px 5px red;
+background: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85));
+}
+
+  .news a{
+color: yellow;
+text-decoration: none;
+}
+
+  .news a:hover{
+color: red;
+text-shadow: none;
+text-decoration:underline;
+}
+
+
+  .news:hover{
+color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+

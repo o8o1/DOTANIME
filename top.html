@@ -1,0 +1,181 @@
+<HTML>
+
+<HEAD>
+<script src="https://kit.fontawesome.com/97d89c0919.js" crossorigin="anonymous"></script>
+
+<style>
+
+
+
+*{
+   margin:0;
+   padding:0;
+}
+
+ body {
+  // background: #c70039;
+     background-image:url(src/bgtop.png);
+     width: 100%;
+     Height: 100vh;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+
+
+
+     font-family: arial;
+}
+
+.logo {
+	position:absolute;
+	top:8%;
+	left:2%;
+    border-radius:50%;
+    width: 60px;
+    cursor: pointer;
+   }
+
+
+  .container{
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    transform:translate(50%, -50%);
+    width: 500px;
+    height:50	px;
+    border-bottom: 5px solid #000;
+    line-height: 50px;
+    background: white; 
+    overflow: hidden;
+}
+
+
+  .container span{
+    color: white;
+    font-size:30px;
+    background: black;
+    display: inline-block;
+    padding:2px 20px;
+    text-transform: uppercase;
+    
+}
+
+
+  .container span:before{
+    position:absolute;
+    content:"";
+    width:69%;
+    height: 100%;
+    background:#000;
+    z-index: -1;
+    transform:rotate(45deg);
+}
+
+
+
+
+
+
+
+   .searchbox{
+     position:absolute;
+     top:48%;
+     left: 89%;
+     transform:translate(-50%,-50%);
+     background-color: black;
+     height:10px;
+     border-radius: 10px;
+     padding: 10px;
+}
+
+   i{
+	position:absolute;
+	top:30%;
+	left:105%;
+   }
+
+
+
+   .input_box{
+     border: none;
+     outline:none;
+     background:black;
+     float:center;
+     padding: -10%;
+     color: white;
+     font-size: 16px;
+     transition: 0.4s all;
+     line-height: 0%;
+     width:180px;
+}
+
+
+   .btn {
+	positon:absolute;
+    color:white;
+}
+
+
+
+   .vid {
+     position:absolute;
+     top:0%;
+     left:0%;
+}
+
+
+
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+    
+
+
+  
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+<TITLE> TOP  </TITLE>
+
+</HEAD>
+
+
+
+
+
+
+
+<BODY>
+    <img src="src/logo.jpg" class="logo">
+
+
+
+
+<div class= "container">
+<span> DOTANIME  </span>
+</div>
+
+<div class="searchbox">
+<input class="input_box" type="text" name="" placeholder="search"> <i class="fas fa-search"></i>
+</div>
+
+
+
+
+
+</BODY>
+
+
+</HTML>

@@ -1,0 +1,75 @@
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black;
+}
+
+
+table,th,td{
+border: 1px solid white;
+}
+
+ table.tab{
+text-align:center;
+} 
+
+
+th {
+color: black;
+height: 50px;
+background-color:orange;
+text-decoration: underline;
+}
+
+
+ td {
+text-align:center;
+color: white;
+background-color:black;
+padding: 15px;
+
+}   
+
+  .tab{
+margin-left:auto;
+margin-right:auto;
+}
+
+
+ .image {
+
+height: 150px;
+width: 120px;
+transition:transform 0.5s;
+}
+
+
+ .image:hover{
+transform: translateY(-8px);
+}
+
+
+
+
+ .shadow {
+position: absolute;
+top:2%;
+left:5%;
+height: 120%;
+width:90%;
+border-radius: 30px;
+z-index:-2;
+opacity: 0.5;
+
+}
+
+

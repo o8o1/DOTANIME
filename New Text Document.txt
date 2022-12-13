@@ -1,0 +1,40 @@
+<HTML>
+
+
+<frameset rows= "*,*,10%">
+   <frame src= "try.html">
+ <frameset cols= "15,70,15">
+   <frame src= "D:\Work\Html\aditya\New folder\left.html">
+   <frame src= "video.html">
+   <frame src= "D:\Work\Html\aditya\New folder\right.html">
+</frame>
+   <frame src= "D:\Work\Html\aditya\New folder\bottom.html">
+</frameset>
+
+
+
+
+<HEAD>
+
+<Style>
+
+
+
+</Style>
+
+
+<TITLE> </TITLE>
+</HEAD>
+
+
+
+
+
+
+
+</BODY>
+
+
+
+
+</HTML>

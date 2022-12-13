@@ -1,0 +1,165 @@
+<HTML>
+
+<HEAD> <TITLE> TABLE </TITLE> </HEAD>
+
+<link rel="stylesheet" type="text/css" href="tablecss.css">
+
+//<BODY bgcolor="yellow">
+
+
+
+<table class="tab">
+<tr>
+<th width="45px">S.no</th>
+<th>Image</th>
+<th  width="70px">Episode</th>
+<th>Genres</th>
+<th>Release Date</th>
+<th width="100px">Ratings</th>
+<th width="500px">Synopsis</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td><img src="table1.png" class="image">  </td>
+<td> 11 </td>
+<td>Ecchi</td>
+<td> 25/July/2021</td>
+<td>8.8</td>
+<td>
+
+<center><h4><u>Beyblade Burst Dynamite Battle </u></h4></center>
+Beyblade Burst Dynamite Battle (ベイブレードバーストDB(ダイナマイトバトル), Beiburēdo Bāsuto Dainamaito Batoru), also known as Beyblade Burst DB, is a 2021 original net animation series and the sixth season of Beyblade Burst. The series is produced by OLM and began streaming in Japan on the CoroCoro and Takara Tomy YouTube channels on April 2, 2021.[1][2] The opening theme is "Clash! Dynamite Battle" by Noristry while the ending theme is an instrumental version of "Clash! Dynamite Battle".
+</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td><img src="table2.png" class="image">  </td>
+<td> 10 </td>
+<td>Action</td>
+<td> 23/July/2021</td>
+<td>7</td>
+<td>
+<center><h4><u>Holo no Graffiti</u></h4></center>
+Holo no Graffiti.From unraveling the secrets of opening and closing doors to defusing surprise packages more commonly known as bombs, there is never a dull day at the Hololive Production office! Holo no Graffiti follows an eccentric cast of Virtual YouTubers, also known as "VTubers," going about their absurd yet hilarious daily lives, detailing all their cute moments and mishaps.
+
+</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td> <img src="table3.png" class="image">  </td>
+<td>126</td>
+<td>Adventure</td>
+<td> 14/July/2021</td>
+<td>4</td>
+<td>
+<center><h4><u>Kiratto Pri☆chan Season 3</u></h4></center>
+First-year middle school girls Mirai Momoyama and Emo Moegi are two aspiring idols who decide to use the "Pri☆Chan System," a system used by famous people and companies to broadcast content. Like many girls starting their own channels and uploading content, the pair decide to become their own producers, starting their own channel in an attempt to become Pri☆Chan idols.
+
+</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td> <img src="table4.png" class="image">  </td>
+<td>167</td>
+<td>Romance</td>
+<td> 5/July/2021</td>
+<td>5</td>
+<td>
+<center><h4><u>Seirei Gensouki</u></h4></center>
+Amakawa Haruto is a young man who died before reuniting with his childhood friend who disappeared five years ago. Rio is a boy living in the slums who wants revenge for his mother who was murdered in front of him when he was five years old.
+Earth and another world. Two people with completely different backgrounds and values. For some reason, the memories and personality of Haruto who should've died is resurrected in Rio's body. As the two are confused over their memories and personalities fusing together, Rio decides to live in this new world.
+
+
+</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td> <img src="table5.png" class="image">  </td>
+<td>97</td>
+<td>Action</td>
+<td> 27/July/2021</td>
+<td>9</td>
+<td>
+<center><h4><u>Deatte 5-byou de Battle</u></h4></center>
+It was just a usual morning.
+Akira Shiroyanagi, a high schooler who loves games and Konpeito (Japanese sweets), has suddenly been dragged into a battlefield by a mysterious girl who calls herself Mion. The participants are told that they are "erased from the family register, involved in an experiment, and gained certain powers."
+
+</td>
+</tr>
+
+<tr>
+<td>6</td>
+<td> <img src="table6.png" class="image">  </td>
+<td>12</td>
+<td>Supernatural</td>
+<td> 5/July/2021</td>
+<td>7</td>
+<td>
+<center><h4><u> Fumetsu no Anata e  </u></h4></center>
+An Orb, known only as It, is cast to Earth to be observed from afar. Capable of changing forms from beings whose reflections It captures, It first becomes a rock and then, due to the rising temperature, moss.
+It is inept of movement until one snowy day, a wolf at death's door barely crosses by. When It takes the animal's form, It attains awareness of its consciousness and starts to wander with an unclear destination in mind. Soon.
+
+</td>
+</tr>
+
+<tr>
+<td>7</td>
+<td> <img src="table7.png" class="image">  </td>
+<td>154</td>
+<td>Fantasy</td>
+<td> 1/July/2021</td>
+<td>4</td>
+<td>
+<center><h4><u> Uramichi Oniisan  </u></h4></center>
+"Hello, boys and girls! Do you like guys with more than one side to them?"
+31 year old Omota Uramichi is the gymnastics coach in the children's educational TV program "Together with Mama." He might be sweet on the outside, but all boys and girls are inevitably scared off whenever they get a glimpse of the adult darkness that's the result of Uramichi-sensei's emotional instability. This is a tragic eulogy to all the "boys and girls" who are now adults!
+
+
+</td>
+</tr>
+
+<tr>
+<td>8</td>
+<td> <img src="table8.png" class="image">  </td>
+<td>91</td>
+<td>Comedy</td>
+<td> 20/July/2021</td>
+<td>5</td>
+<td>
+<center><h4><u> Run=Dim  </u></h4></center>
+In the year 2050 A.D, approximately 1/10th of Japan is now under water due to the global warming effect. The city of Tokyo was no exception.
+The economy of Japan is crippled from this disaster and the government is willing for anything to help revive the country. As a result, the Japanese government forms "JESAS", a military foundation that has evil intentions of controlling Japan's future. JESAS handles the dumping of nuclear wastes into outer space.
+
+</td>
+</tr>
+
+<tr>
+<td>9</td>
+<td> <img src="table9.png" class="image">  </td>
+<td>998</td>
+<td>Adventure</td>
+<td> 20/July/2021</td>
+<td>9</td>
+<td>
+<center><h4><u>ONE PIECE</u></h4></center>
+Gol D. Roger was known as the "Pirate King," the strongest and most infamous being to have sailed the Grand Line. The capture and death of Roger by the World Government brought a change throughout the world. His last words before his death revealed the existence of the greatest treasure in the world, One Piece. It was this revelation that brought about the Grand Age of Pirates, men who dreamed of finding One Piece—which promises an unlimited amount of riches and fame—and quite possibly the pinnacle of glory and the title of the Pirate King. Enter Monkey D. Luffy, a 17-year-old boy who defies your standard definition of a pirate. Rather than the popular persona of a wicked, hardened, toothless pirate ransacking villages for fun, Luffy’s reason for being a pirate is one of pure wonder: the thought of an exciting adventure that leads him to intriguing people and ultimately, the promised treasure. Following in the footsteps of his childhood hero, Luffy and his crew travel across the Grand Line, experiencing crazy adventures, unveiling dark mysteries and battling strong enemies, all in order to reach the most coveted of all fortunes—One Piece.
+</td>
+</tr>
+
+</TABLE>
+
+
+
+
+
+
+
+
+</BODY>
+
+</HTML>
